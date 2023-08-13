@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.cdnfonts.com/css/bronten" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/syncopate" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/tigreal-free" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/paperKind" rel="stylesheet">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!-- Preloader section -->
+    <div id="preloader">
+        <div id="container" class="container-preloader">
+
+            <div class="animation-preloader">
+                <div class="bg">
+                    <svg class="lightning-streak" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                        <path class="lightning-streak__path" fill="none" stroke-miterlimit="10"
+                            d="M54.833 0l2.165 4.747-2.165 6.76 1.083 4.868v2.434l1.082 2.703 1.352 4.056 2.162 3.244v7.841l-1.62 2.434.54 2.974 1.08 3.516v4.326l2.705 1.893 5.68 5.137v11.626l-.402 2.704.4 2.705v3.786l5.95 15.142 1.622 7.03-.54 4.326.54 5.41-1.623 8.652 1.623 8.113 3.786 7.573-1.082 4.866v4.327l-1.35 8.382 2.433 12.44v6.49l1.903 4.324-1.092 4.87-2.704 1.622v3.784l-2.163 3.246v4.87l-2.164 6.217" />
+                    </svg>
+                </div>
+                <div class="txt-loading">
+                    <span preloader-text="P" class="characters">P</span>
+
+                    <span preloader-text="R" class="characters">R</span>
+
+                    <span preloader-text="O" class="characters">O</span>
+
+                    <span preloader-text="J" class="characters">J</span>
+
+                    <span preloader-text="E" class="characters">E</span>
+
+                    <span preloader-text="C" class="characters">C</span>
+
+                    <span preloader-text="T" class="characters">T</span>
+
+                    <span preloader-text="S" class="characters">S</span>
+                </div>
+            </div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+    </div>
+    <!-- Preloader section -->
+
+    <main id="main-content">
+        <!-- Navbar section -->
+        <section id="nav-section">
+            <header>
+                <div class="container">
+                    <input type="checkbox" name="check" id="check" />
+
+                    <div class="logo-container">
+                        <h3 class="logo">J<span>OSH</span></h3>
+                    </div>
+
+                    <div class="nav-btn">
+                        <div class="nav-links">
+                            <ul>
+                                <li class="nav-link" style="--i: 0.6s">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="nav-link" style="--i: 0.85s">
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li class="nav-link" style="--i: 1.1s">
+                                    <a href="projects.html">Projects</a>
+                                </li>
+                                <li class="nav-link" style="--i: 1.35s">
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-item">
+                            <a
+                                href="https://drive.google.com/file/d/1dQ5404vv-dY2LE0Cf6tZqBJA3-9KfxUk/view?usp=sharing">
+                                <button class="download-btn">Resume</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hamburger-menu-container">
+                        <div class="hamburger-menu">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <!-- Navbar section End -->
+
+        <!-- Projects Section -->
+        <section id="projects-section">
+            <div class="project-container">
+                <img src="images/b10.jpg" alt="e-commerce" />
+                <h5>E-COMMERCE WEBSITE</h5>
+                <p>
+                    This five page website was built using Html, css, javascript and
+                    bootstrap. By leveraging javascript and bootstrap, the website
+                    incorporates interactive features such as product filtering, dynamic
+                    product displays and smooth animations, enhancing the overall user
+                    experience.
+                </p>
+                <a class="btn" href="https://e-commerce-jd.netlify.app" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/apple-iphone-14-pro-launch-2022-16625743583x2.jpg" alt="" />
+                <h5>IPHONIA</h5>
+                <p>
+                    This Fully functional website was meticulously built using React,
+                    Redux, Html, Css, Bootstrap and API integration, it offers an
+                    exceptional shopping experience for iphone buyers. With its dynamic
+                    features, responsive design and real-time product information.
+                </p>
+                <a class="btn" href="https://jd-iphone.netlify.app/" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/PG.jpg" alt="" />
+                <h5>PASSWORD GENERATOR</h5>
+                <p>
+                    The "Password Generator" web app was built using HTML, CSS, and
+                    JavaScript. It allows users to create strong passwords with custom
+                    length and character types. The app includes a password strength
+                    indicator and was managed using Git. Deployed on Netlify.
+                </p>
+                <a class="btn" href="https://jd-passwordz.netlify.app/" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/medcare.png" alt="" />
+                <h5>MedCare</h5>
+                <p>
+                    Welcome to MedCare, your dedicated ally in achieving 
+                    optimal health for you and your loved ones. Discover a 
+                    comprehensive resource that brings top-tier healthcare 
+                    knowledge and support directly to your fingertips.
+                    MedCarehelps to make informed decisions, 
+                    accessing quality medical info and fostering a 
+                    lifetime of wellness.
+                </p>
+                <a class="btn" href="https://medcare5.netlify.app/" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/digimark.png" alt="" />
+                <h5>DigiMark</h5>
+                <p>
+                    Are you ready to elevate your business to new heights? At Digimark, 
+                    we're more than just a website – we're your strategic partner on the 
+                    road to success. Discover cutting-edge insights, expert strategies, 
+                    and real-world solutions that will revolutionize the way you approach business growth.
+                </p>
+                <a class="btn" href="https://digimark.netlify.app/" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/pyramitz.png" alt="" />
+                <h5>Pyramitz</h5>
+                <p>
+                    Step into the captivating world of NFTs with Pyramitz. 
+                    Discover the art of turning your digital creations into unique, 
+                    tradable assets. From understanding the basics to mastering the 
+                    intricacies of NFT selling, Pyramitz is your ultimate guide. 
+
+                </p>
+                <a class="btn" href="https://pyramitz.netlify.app/" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/portfolio.png" alt="" />
+                <h5>PAST PORTFOLIO</h5>
+                <p>
+                    Built using Html, Css and bootstrap, This portfolio showcases my
+                    skills, projects, services and accomplishments. The responsive
+                    design used in this portfolio website makes it look very modern and
+                    looks impressive on different devices including desktops, laptops,
+                    tablets and mobile phones.
+                </p>
+                <a class="btn" href="https://josh270-portfolio.netlify.app/" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/note-pic.JPG" alt="notepad" />
+                <h5>NOTEPAD REACT APP</h5>
+                <p>
+                    This simple React app was made using Html, css, javascript and of
+                    course React 😉. Leveraging the power of React, the web app offers
+                    real-time updates and dynamic content rendering, ensuring a seamless
+                    user experience as notes are created, edited and also can be
+                    deleted.
+                </p>
+                <a class="btn" href="https://jd-notepad.netlify.app" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/pet-finder.png" alt="" />
+                <h5>PET FINDER</h5>
+                <p>
+                    The Pet-finder website is a one page mock-up tinder website designed
+                    using Html, Css, Javascript and Bootstrap and it aims at helping
+                    pets find companions. By providing a platform for pets to connect
+                    and socialize, the pet-finder website promotes companionship.
+                </p>
+                <a class="btn" href="https://josh270.github.io/pet-finder/" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/dice.jpg" alt="" />
+                <h5>DICE GAME</h5>
+                <p>
+                    A simple dice game that generates a random outcome at the click of a
+                    button, with responsive design implemented through Html and css It
+                    adapts smoothly to different screen sizes, ensuring a seamless
+                    experience for users across devices.
+                </p>
+                <a class="btn" href="https://josh270.github.io/dice-game/" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/todo1.jpg" alt="" />
+                <h5>TO-DO REACT APP</h5>
+                <p>
+                    The todo react app is a feature-rich and user-friendly platform
+                    developed using HTML, CSS, JavaScript, React, and Bootstrap,
+                    designed to help users manage their tasks efficiently. It provides a
+                    seamless interface where users can create, and organize their to-do
+                    lists, ensuring they stay organized.
+                </p>
+                <a class="btn" href="https://jd-to-do.netlify.app/" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-container">
+                <img src="images/pet-finder.png" alt="" />
+                <h5>PET FINDER</h5>
+                <p>
+                    The Pet-finder website is a one page mock-up tinder website designed
+                    using Html, Css, Javascript and Bootstrap and it aims at helping
+                    pets find companions. By providing a platform for pets to connect
+                    and socialize, the pet-finder website promotes companionship.
+                </p>
+                <a class="btn" href="https://josh270.github.io/pet-finder/" target="_blank">
+                    <span>Launch Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="18" height="18" x="0" y="0" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M26.68 3.867H8.175a1 1 0 0 0 0 2h16.544L4.2 26.387A1 1 0 1 0 5.613 27.8l20.52-20.52v16.545a1 1 0 0 0 2 0V5.321a1.456 1.456 0 0 0-1.453-1.454z"
+                                fill="#000000"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </section>
+        <!-- Projects Section -->
+
+        <!-- Footer Section -->
+        <section id="footer-section" class="col-md-3">
+            <div class="info_social">
+                <a href="mailto:joshdestiny4@email.com">
+                    <img src="images/mail-icon.png" alt="Email" />
+                </a>
+                <a href="https://twitter.com/joshdestiny4">
+                    <img src="images/twit-icon.png" alt="Twitter" />
+                </a>
+                <a href="https://www.linkedin.com/in/abah-joshua-b65790250">
+                    <img src="images/ln-icon.png" alt="Linkedin" />
+                </a>
+                <a href="https://github.com/josh270">
+                    <img src="images/gh-icon.png" alt="Github" />
+                </a>
+                <a href="https://telegram.me/Joshdestiny">
+                    <img src="images/tg-icon.png" alt="Telegram" />
+                </a>
+                <a href="https://wa.me/08153463814">
+                    <img src="images/w-icon.png" alt="Whatsapp" />
+                </a>
+            </div>
+        </section>
+        <!-- Footer Section End -->
+
+        <!-- Javascript -->
+        <section>
+            <script src="js/script.js"> </script>
+            <script src="js/lightning.js"> </script>
+            <!-- Water ripple effect -->
+            <script src="https://cdn.jsdelivr.net/npm/jquery.ripples@0.6.3/dist/jquery.ripples-min.min.js"> </script>
+            <script>
+                $('body').ripples({
+                    resolution: 520,
+                    dropRadius: 20,
+                    perturbance: 0.04,
+                });
+                //  Water Ripple Effect
+
+                //  Preloader javascript start
+
+                $(document).ready(function () {
+                    setTimeout(function () {
+                        $('#container').addClass('loaded');
+                        // Once the container has finished, the scroll appears
+                        if ($('#container').hasClass('loaded')) {
+                            // It is so that once the container is gone, the entire preloader section is deleted
+                            $('#preloader').delay(900).queue(function () {
+                                $(this).remove();
+                            });
+                        }
+                    }, 3000);
+                });
+
+                // Preloader Javascript
+            </script>
+        </section>
+        <!-- Javascript -->
+    </main>
+</body>
+
+</html>
