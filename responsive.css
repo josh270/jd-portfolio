@@ -1,0 +1,235 @@
+@media (max-width: 767px) {
+
+  #nav-section img {
+    width: 20%;
+    background: none;
+  }
+
+  #About-section {
+    justify-content: center;
+    padding: 110px 40px 0px;
+  }
+
+  #About-section h2::after {
+
+    animation: underlineAnimation 0.8s forwards;
+  }
+
+  @keyframes underlineAnimation {
+    0% {
+      width: 0;
+    }
+
+    100% {
+      width: 70%;
+    }
+  }
+
+  #typedtext {
+    padding-top: 10px;
+  }
+
+  #Skill-section h2 {
+    position: relative;
+    font-family: "Bronten", sans-serif;
+    letter-spacing: 0.4em;
+    padding-right: 50px;
+  }
+
+  #Skill-section ul img {
+    width: 10%;
+  }
+
+  #Skill-section li {
+    width: 100%;
+  }
+
+
+  #section_2 .landing-page .typewrite {
+    font-size: 0.95rem;
+  }
+
+  .download-btn {
+    padding-bottom: 20px;
+    height: 30%;
+  }
+
+  .video video {
+    width: 40%;
+    border-radius: 10px;
+    display: none;
+  }
+
+  .preloader h1 {
+    padding: 0px;
+    margin: 5px 4px 0px;
+    font-size: 3rem;
+  }
+
+  #contact-section {
+    padding: 50px 40px 0px !important;
+}
+
+  .contact-container {
+    display: inline  !important;
+}
+
+#contact-section h1 {
+  padding-right: 5rem;
+  font-size: 1.8rem !important;
+  font-weight: 900;
+}
+
+#contact-section  p {
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+}
+
+
+.contact-form {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.site-footer {
+  position: relative !important;
+  margin-bottom: -100px !important;
+  overflow: hidden !important;
+}
+
+#Skill-section {
+  padding: 30px 100px 0px;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  z-index: 0;
+}
+
+.project-container{
+  width: 80%;
+  height: 530px;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 17%;
+    height: 20px;
+    z-index: 9;
+    margin-top: 20px;
+  }
+
+}
+
+
+@media (max-width: 1023px) {
+  #section_2 {
+    justify-content: flex-start;
+    padding: 50px 20px 0px;
+    overflow: hidden;
+  }
+
+  .video video {
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 200px;
+  }
+
+  .video {
+    flex: 12;
+  }
+
+  .hamburger-menu-container {
+    display: flex;
+    padding-top: 10px;
+  }
+
+  header {
+    height: 7%;
+  }
+
+  #check {
+    display: block;
+  }
+
+  .nav-btn {
+    position: fixed;
+    height: calc(100vh - 3rem);
+    top: 3rem;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: .65s;
+  }
+
+  #check:checked~.nav-btn {
+    transform: translateX(0);
+  }
+
+  #check:checked~.nav-btn .nav-link,
+  #check:checked~.nav-btn .log-sign {
+    animation: animation .5s ease forwards var(--i);
+  }
+
+  .nav-links {
+    flex: initial;
+    width: 100%;
+  }
+
+  .nav-links>ul {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    width: 100%;
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  .nav-link>a {
+    line-height: 1;
+    padding: 1.6rem 2rem;
+  }
+
+  .nav-link:hover>a {
+    transform: scale(1);
+    background-color: #a5c7b7;
+  }
+
+  .nav-item {
+    padding-bottom: 100px;
+    height: 70%;
+  }
+
+  .download-btn {
+    padding-bottom: 20px;
+    height: 30%;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    margin-bottom: 10px;
+    flex-basis: 100%;
+    width: fit-content;
+    border: none;
+  }
+
+  .logo-container {
+    position: relative;
+    top: 10px;
+  }
+
+  #footer-section {
+    max-width: 100%;
+  }
+}
